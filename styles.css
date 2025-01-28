@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+}
+
+.container {
+    padding-top: 95px;
+    margin: 0 80px 0 80px;
+}
+.second-container {
+    padding-top: 95px;
+    margin: 0 80px 0 80px;
+}
+.third-container {
+    padding-top: 95px;
+    margin: 0 80px 0 80px;
+}
+.fourth-container {
+    margin: 0 80px 0 80px;
+
+}
+.header {
+    position: fixed;
+    width: 100%;
+    border: 3px solid;
+    background-color: white;
+    border-style: none;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: red;
+} 
+.nav ul li {
+    font-weight: 600;
+}
+.nav a:hover {
+    color: grey;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 80px 0 80px;
+}
+.header li {
+    padding: 20px;
+    list-style: none;
+    font-size: large;
+}
+.header a {
+    text-decoration: none;
+    color: red;
+}
+.text-1 h2 span {
+    font-size: 40px;
+}
+.namee {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    size: 50px;
+}
+.namee i {
+    color: orangered;
+    font-size: 40px;
+}
+.namee input {
+    width: 50%;
+}
+.touch {
+    width: 100%;
+}
+input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 3px;
+}
+textarea {
+    height: 40px;
+    width: 100%;
+    border-color: gray;
+    border: 1px solid;
+    border-radius: 3px;
+}
+button {
+    padding: 20px;
+    background-color: orangered;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: orangered;
+    color: black;
+    font: bold;
+    width: 150px;
+    height: 50px;
+}
+button:hover{
+    background-color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+.pls {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+.right-side {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.text-2 {
+    display: flex;
+    font-size: large;
+}
+.footer {
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+     align-items: center;
+}
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 70px;
+    font-size: large;
+    word-spacing: 5px;
+}
+.footer-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.services {
+    text-align: center;
+    font-size: 30px;
+}
+.services span{
+    font-size: 20px;
+}
+.services-1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+}
+.services-1 span {
+    font-size: 20px;
+}
+.second-div {
+    text-align: center;
+    width: 300px;
+    padding: 60px;
+    background-color: rgb(57, 51, 51);
+    color: white;
+    border-radius: 6px;
+    padding: 50px 25px;
+}
+.second-div:hover {
+    background-color: red;
+}
+.fourth-div {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    padding: 50px 25px;
+    background-color: rgb(57, 51, 51);
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+.fourth-div:hover {
+    background-color: rgb(210, 67, 15);
+}
+.fourth-div:hover {
+    background-color: red;
+}
+.footer div p {
+    list-style: none;
+    text-decoration: none;
+}
+.middle-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.skills-text {
+    width: 50%;
+    text-align: left;
+}
+.touch {
+    display: flex;
+}
+.progress {
+    width: 50%;
+    text-align: left;
+}
+.pip {
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: grey;
+}
+.skills-html {
+    width: 95%;
+    height: 6px;
+    background-color: red;
+}
+.skills-css {
+    width: 85%;
+    height: 6px;
+    background-color: red;
+}
+.skills-js {
+    width: 80%;
+    height: 6px;
+    background-color: red;
+}
+.skills-php {
+    width: 88%;
+    height: 6px;
+    background-color: red;
+}
+.skills-node {
+    width: 70%;
+    height: 6px;
+    background-color: red;
+}
+.skills-sql {
+    width: 82%;
+    height: 6px;
+    background-color: red;
+}
+.skills-debug {
+    width: 78%;
+    height: 6px;
+    background-color: red;
+}
+.skills-problem {
+    width: 90%;
+    height: 6px;
+    background-color: red;
+}
+.second-div i {
+    color: orangered;
+    font-size: 50px;
+}
+.fourth-div i {
+    color: orangered;
+    font-size: 50px;
+}
+.text input {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
+.contact i {
+    color: orangered;
+    font-size: 30px;
+}
+.container-1 {
+    width: 500px;
+    padding: 30px;
+}
+.container-1 input {
+    width: 50%;
+}
+.container-11 {
+    width: 500px;
+    padding: 30px;
+}
+.hamburger {
+    visibility: hidden;
+    position: absolute;
+}
+.dafe {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.dafe span {
+    color: orangered;
+}
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+        width: 1050px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .touch {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header {
+        width: 90%;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .nav {
+        visibility: hidden;
+        position: absolute;
+    }
+    .hamburger {
+        visibility: visible;
+        position: relative;
+        font-size: larger;
+    }
+    .services {
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-right: 0;
+    }
+    .dafe {
+        width: 100%;
+        padding: 0;
+    }
+    }
+    
+    
+
+
+
