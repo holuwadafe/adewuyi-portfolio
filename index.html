@@ -8,27 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/430d653bb9.js" crossorigin="anonymous"></script>
 </head>
-<body>
-        <div class="header">
-            <div class="header-container">
-                <h1 style="color: red;"><strong style="color: green">HOLUWADAFE</strong>DEV</h1>
-                <div class="nav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="skills">Skills</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+<body class="slide-1n">
+    <div id="greetings"></div>
+    <div class="header">
+        <div class="header-container">
+            <h1 style="color: red;"><strong style="color: green">HOLUWADAFE</strong>DEV</h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="skills">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
+            <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
         </div>
-        <section class="container">
-            <div class="footer">
-                    <div class="text-1">
+    </div>
+    <section class="container">
+        <table>
+            <thead id="head"></thead>
+            <tbody id="t-data"></tbody>
+        </table>
+        <div class="footer">
+            <div class="text-1">
                         <div>
-                            <h2>Hi, my name is <br><span>KAMORUDEEN ISAWADE</span><br>And i'm A Website Developer </h2>
+                            <h2>Hi, my name is <br><span>KAMORUDEEN ISAWADE</span id="animated-text"><br>
+                                <h1>And I'm a <span class="auto-typed"></span> </h2>
                         </div>
                         <div>
                             <button>HIRE ME</button>
@@ -203,6 +209,16 @@
         </section>
 <div class="dafe">
         <p>Created by <span>HOLUWADAFEdev.</span> | <i class="fa-regular fa-copyright"></i> 2025</p>
-    </div>
+</div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-typed", {
+            strings: ["Website/App Developer", "Software Engineer", "Designer", "Environmental Health Technologist"],
+            typedSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+        })
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
