@@ -1,10 +1,28 @@
+body {
+opacity: 0;
+transform: translateY(30px);
+animation: moveup 0.5s linear forwards;
 
+
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+        animation-delay: 2.5s;
+    }
+}
 .auto-typed {
     color: red;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
 }
 table {
     width: 50%;
 
+}
+span {
+    color: rgb(155, 109, 49);
 }
 th, td {
     padding: 10px;
@@ -64,7 +82,7 @@ th, td {
     text-decoration: none;
     color: red;
 }
-.text-1 h2 span {
+.text-1 h2  {
     font-size: 40px;
 }
 .namee {

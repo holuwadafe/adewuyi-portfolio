@@ -1,46 +1,46 @@
-{
-    "users": [
-        {
-            "name": "adedayo",
-            "age": 24,
-            "country": "Nigeria",
-            "ID": 1
+// {
+//     "users": [
+//         {
+//             "name": "adedayo",
+//             "age": 24,
+//             "country": "Nigeria",
+//             "ID": 1
 
-        },
-        {
-            "name": "adeagboo",
-            "age": 22,
-            "country": "USA",
-            "ID": 2
+//         },
+//         {
+//             "name": "adeagboo",
+//             "age": 22,
+//             "country": "USA",
+//             "ID": 2
 
-        },
-        {
-            "name": "sola",
-            "age": 18,
-            "country": "China",
-            "ID": 3 
+//         },
+//         {
+//             "name": "sola",
+//             "age": 18,
+//             "country": "China",
+//             "ID": 3 
 
-        },
-        {
-            "name": "johnny",
-            "age": 25,
-            "country": "France",
-            "ID": 4
+//         },
+//         {
+//             "name": "johnny",
+//             "age": 25,
+//             "country": "France",
+//             "ID": 4
 
-        },
-        {
-            "name": "bukky",
-            "age": 30,
-            "country": "Nigeria",
-            "ID": 5
+//         },
+//         {
+//             "name": "bukky",
+//             "age": 30,
+//             "country": "Nigeria",
+//             "ID": 5
 
-        },
-        {
-            "name": "solah",
-            "age": 20,
-            "country": "Nigeria",
-            "I": 6
+//         },
+//         {
+//             "name": "solah",
+//             "age": 20,
+//             "country": "Nigeria",
+//             "I": 6
 
-        }
-    ]
-}
+//         }
+//     ]
+// }
